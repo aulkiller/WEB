@@ -12,11 +12,11 @@ body {
 .nav-container {
     background: #FFFFFF;
     height: 100px;
-
 }
 
 .wrapper {
     max-width: 1853px;
+    max-height: 2453px;
     margin: 0 auto;
 }
 
@@ -43,14 +43,18 @@ nav .logo .alfalogo{
     margin-left: 30px;
 }
 
-nav .logo .key {
+nav .logo .key{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+nav .logo a{
+    text-decoration: none ;
+    color: #000000;
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
-    color: #000000;
 }
 
 .nav-items li {
@@ -73,38 +77,70 @@ nav .logo .key {
 .nav-items li a {
     font-family: Helvetica;
     font-style: normal;
-    font-size: 20px;
+    text-decoration: none ;
+    font-size: 20px; 
     color: #000000;
 }
 
 .header-container {
+    background: #FFF444;
     height: calc(100vh-72px);
+    display: flex;
+    align-items: center;
 }
 
 .TulisanP1 h1{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 75px;
     align-items: center;
     text-align: center;
     color: #000000;
 }
 
 .TulisanP1 p{
-    font-family: Helvetica;
+    font-family: Helvetica;/*Eina02-Light gada cuk*/
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     align-items: center;
     text-align: center;
     color: #000000;
 }
 
-.TulisanP1 a{
+.tombol {
+    align-items: center;
+    text-align: center;
+}
+
+.tombol a{
     font-family: Helvetica;
     font-style: normal;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none ;
+    color: #000000;
+}
+
+.TulisanP2{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
     align-items: center;
     text-align: center;
     color: #000000;
+    margin-top: 300px;
+    margin-bottom: 60px;
+}
+
+.photoset,.photoset2 {
+    display: flex;
+}
+
+.ps1 {
+    width: 320px;
+    height: 380px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
