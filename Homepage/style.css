@@ -14,6 +14,11 @@ body {
     height: 100px;
 }
 
+.nav-containerindex {
+    background: #36393F;
+    height: 100px;
+}
+
 .wrapper {
     max-width: 1853px;
     max-height: 2453px;
@@ -48,6 +53,11 @@ nav .logo .key{
     margin-left: 20px;
 }
 
+nav .logo .keya{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
 nav .logo a{
     text-decoration: none ;
     color: #000000;
@@ -55,6 +65,10 @@ nav .logo a{
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
+}
+
+nav .logo .keya a{
+    color: #FFFFFF;
 }
 
 .nav-items li {
@@ -82,14 +96,105 @@ nav .logo a{
     color: #000000;
 }
 
+.nav-itemsindex li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-itemsindex li:nth-of-type(5){
+    margin-right: 10px;
+}
+
+.nav-itemsindex li:nth-of-type(6){
+    margin-right: 10px;
+}
+
+.nav-itemsindexli:nth-of-type(7){
+    margin-right: 40px;
+}
+
+.nav-itemsindex li{
+    color: #FFFFFF;
+}
+
+.nav-itemsindex li a {
+    font-family: Helvetica;
+    font-style: normal;
+    text-decoration: none ;
+    font-size: 20px; 
+    color: #FFFFFF;
+}
+
+/* headercontainer */
 .header-container {
-    background: #FFF444;
+    background: #FFFFFF;
     height: calc(100vh-72px);
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-.TulisanP1 h1{
+.header-containerindex {
+    background: #36393F;
+    height: calc(100vh-72px);
+    display: flex;
+}
+
+.header2-containerindex {
+    background: linear-gradient(90deg, #CE2DD1 -5.97%, #A74ED8 19.74%, #8967DE 50.01%, #5F84D3 76.28%, #5F84D3 76.29%, #34A4C7 103.7%);
+    height: calc(100vh-72px);
+    display: flex;
+}
+
+.header3-containerindex {
+    background: #FFFFFF;
+    height: calc(100vh-72px);
+    display: flex;
+}
+
+.header-containerindex header{
+    display: flex;
+    margin-bottom: -8px;
+    margin-left: -20px;
+}
+
+.header2-containerindex header{
+    display: flex;
+    margin : 0 -100px;
+    margin-bottom: -30px;
+}
+
+.header3-containerindex header{
+    display: flex;
+    margin-bottom: -8px;
+    margin-left: -20px;
+}
+
+/*header*/
+
+header .TulisanIndexP1 {
+    text-align: left;
+    margin-top: 100px;
+}
+
+header .TulisanIndexP1 h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header .TulisanIndexP1 p{
+    font-family: Helvetica;/*Eina02-Light/avenir gada cuk*/
+    font-style: normal;
+    font-size: 25px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header .TulisanP1 h1{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
@@ -98,9 +203,8 @@ nav .logo a{
     text-align: center;
     color: #000000;
 }
-
-.TulisanP1 p{
-    font-family: Helvetica;/*Eina02-Light gada cuk*/
+header .TulisanP1 p{
+    font-family: Helvetica;/*Eina02-Light/avenir gada cuk*/
     font-style: normal;
     font-size: 25px;
     align-items: center;
@@ -108,21 +212,69 @@ nav .logo a{
     color: #000000;
 }
 
-.tombol {
-    align-items: center;
-    text-align: center;
+header .photoaziz{
+    margin-left: +280px;
+}
+header .photos1{
+    width: 600px;
+    height: 688px;
 }
 
-.tombol a{
+header .tombol {
+    align-items: center;
+    text-align: center;
+    margin-top: 220px;
+}
+
+header .tombol a{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 28px;
     text-decoration: none ;
-    color: #000000;
+    color: #FFFFFF;
+    background: #2994FF;
+    border-radius: 44px;
+    padding: 20px 72px;
+    display: inline-block;
+    transition: 300ms;
 }
 
-.TulisanP2{
+header .tombol a:hover {
+    transform: translateY(+8px);
+}
+
+header .TulisanIndexP2 {
+    text-align: center;
+    margin: 30px 140px;
+}
+
+header .TulisanIndexP2 h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header .TulisanIndexP2 p{
+    font-family: Helvetica;/*Eina02-Light gada cuk*/
+    font-style: normal;
+    font-size: 20px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header .TulisanIndexP2 .msgsvg {
+    margin-top: 40px;
+}
+
+header .TulisanIndexP2 .gearsvg {
+    margin-top: -30px;
+}
+
+header .TulisanP2 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
@@ -134,11 +286,13 @@ nav .logo a{
     margin-bottom: 60px;
 }
 
-.photoset,.photoset2 {
+
+
+header .photoset,.photoset2 {
     display: flex;
 }
 
-.ps1 {
+header .ps1 {
     width: 320px;
     height: 380px;
     margin-right: 10px;
