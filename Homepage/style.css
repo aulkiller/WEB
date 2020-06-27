@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+@font-face{
+    src: url(fonts/Quicksand-VariableFont_wght.ttf)
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
